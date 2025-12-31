@@ -1,3 +1,5 @@
+# a list is a container that stores multiple values in a single variable
+
 letters = ["a", "b", "c"]  # a collection of data
 
 print(letters[0])  # accessing items(indexing)
