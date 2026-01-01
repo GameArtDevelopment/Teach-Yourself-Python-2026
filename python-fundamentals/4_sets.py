@@ -79,3 +79,12 @@ active_users.discard("john")
 # No duplicate names allowed
 # Order doesn’t matter
 # Fast “is this person here?” checks
+
+
+# | Feature        | List | Tuple | Set |
+# | -------------- | ---- | ----- | --- |
+# | Ordered        | yes  | yes   | no  |
+# | Mutable        | yes  | no    | yes |
+# | Duplicates     | yes  | yes   | no  |
+# | Indexing       | yes  | yes   | no  |
+# | Speed (lookup) | no   | no    | yes |

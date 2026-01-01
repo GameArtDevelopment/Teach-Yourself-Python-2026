@@ -112,3 +112,12 @@ response = {
 
 # A dictionary is like a labeled storage box
 # You grab items by label, not position.
+
+
+# | Feature    | List | Tuple | Set | Dictionary |
+# | ---------- | ---- | ----- | --- | ---------- |
+# | Ordered    | yes  | yes   | no  | yes        |
+# | Mutable    | yes  | no    | yes | yes        |
+# | Indexed    | yes  | yes   | no  | no         |
+# | Key-based  | no   | no    | no  | yes        |
+# | Duplicates | yes  | yes   | no  | no (keys)  |

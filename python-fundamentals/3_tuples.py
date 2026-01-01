@@ -55,3 +55,10 @@ grid = (
 print(grid[1][0])  # 3
 
 # if data needs to change, structure is unclear, and items need to be added/removed -> use lists instead.
+
+# | Feature  | List             | Tuple       |
+# | -------- | -----------------| ----------- |
+# | Syntax   | "[]"             | "()"        |
+# | Mutable  | Yes              |  No         |
+# | Faster   | Slightly slower  | Faster      |
+# | Use case | Changing data    | Fixed data  |
